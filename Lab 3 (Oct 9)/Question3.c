@@ -13,12 +13,14 @@ int main()
 	printf("Please enter a number between 1 and 100:");
 	
 	scanf("%d", &number);
-
-	if(number % 2 == 0)
+	if
+	{
 		printf("%d is even.\n", number);
+	}
 	else
+	{
 		printf("%d is odd.\n", number);
-	
+	}
 
 	return 0;
 }

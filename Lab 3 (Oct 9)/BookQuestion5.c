@@ -8,9 +8,12 @@ Sam Boles
 
 int main()
 {
-	int heartbeats = 0;
+	unsigned int heartbeats = 0;
 	int age = 0;
 	int ageMinutes = 0;
+	long test =992992929292992;
+
+	printf("%ld\n",test);
 
 	printf("Please enter your age:");
 	scanf("%d", &age);
@@ -18,7 +21,7 @@ int main()
 	ageMinutes = age * 365 * 24 * 60; 
 	heartbeats = ageMinutes * 75;
 
-	printf("You have had aproximately %d heartbeats.\n", heartbeats);
+	printf("You have had aproximately %u heartbeats.\n", heartbeats);
 
 	return 0;
 }
