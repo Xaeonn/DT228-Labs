@@ -12,7 +12,7 @@ int main()
 
 	printf("Please enter two characters:");
 	
-	scanf("%c", &a);
+	scanf("%c", &a); //if you want to not read whitespace characters you can use %1s.
 	scanf("%c", &b);
 
 	printf("You entered:\n%d \n%d \n", a, b);
