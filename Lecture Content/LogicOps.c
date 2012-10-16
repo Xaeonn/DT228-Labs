@@ -1,5 +1,5 @@
 /*
-More intro to the if statement.
+Introducing logic operators.
 Sam Boles
 9/10/2012
 */
@@ -14,17 +14,20 @@ int main()
 	printf("Please enter balance:");
 	scanf("%f", &balance);
 
-	if(balance > 0)
+
+	/* 
+		&& = AND 
+		|| = OR 
+		! = NOT
+	*/
+
+	if(balance > 0 )
 	{
 		printf("You have money.\n");
 	}
-	else if(balance == 0)
-	{
-		printf("Zero balance\n");
-	}
 	else
 	{
-		printf("In overdraft\n");
+		printf("You're broke\n");
 	}
 
 	return 0;
